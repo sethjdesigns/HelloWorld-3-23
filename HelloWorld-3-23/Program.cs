@@ -15,8 +15,14 @@ namespace HelloWorld_3_23
 
 
             //Print FirstName LastName
-            //Print args string index 0 and 1
-            Console.Write(args[0] + " " + args[1]);
+            ////Print args string index 0 and 1
+            //Console.Write(args[0] + " " + args[1]);
+
+
+            //Print LastName, FirstName
+            //Print args string index 1 and 0 with the string "," in the middle.
+            Console.Write(args[1] + "," + args[0]);
+
 
             //Read Line
             Console.ReadLine();
